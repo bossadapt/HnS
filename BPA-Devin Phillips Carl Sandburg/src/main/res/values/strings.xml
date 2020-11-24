@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HnS Upgrade</string>
+    <string name="map_key" translatable="false">AIzaSyAZBQGIR8OWAjXCqZnEQ62IXn0xLUInKN4</string>
+    <string name="map_key_1" translatable="false">AIzaSyCdJ2J-fkUZjmAx-jzQU4WM5xsYUhWgfxE</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

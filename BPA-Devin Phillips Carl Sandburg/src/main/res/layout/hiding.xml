@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/seekerHasReachedCircle"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:visibility="visible"></Chronometer>
+
+    <TextView
+        android:id="@+id/hintsUsed"
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+        android:gravity="center"
+        android:text="no hints used"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/foundButton"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:text="I've been found" />
+</LinearLayout>

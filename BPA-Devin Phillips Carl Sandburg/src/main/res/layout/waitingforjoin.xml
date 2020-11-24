@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/namewaiter"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Lobby Name:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/waiting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Waiting for someone to join..."
+        android:textSize="24sp" />
+</LinearLayout>
